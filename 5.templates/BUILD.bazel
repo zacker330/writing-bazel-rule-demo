@@ -1,0 +1,8 @@
+load(":foo.bzl", "hello_world")
+
+hello_world(name = "hello",
+           username="Alice",
+           template="file.cc.tpl"
+           )
+
+
