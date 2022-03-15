@@ -1,0 +1,8 @@
+load(":foo.bzl", "copy_file")
+
+copy_file(
+    name = "copy",
+    srcs = [
+        ":a.yaml"
+    ]
+)
