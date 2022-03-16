@@ -1,0 +1,7 @@
+load(":foo.bzl", "writeVersion")
+
+writeVersion(
+    name = "appVersion",
+    src = "version",
+    version = "1.0.0"
+)

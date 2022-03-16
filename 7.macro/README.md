@@ -1,0 +1,1 @@
+Macros are suitable for simple tasks. If you want to do anything more complicated, for example add support for a new programming language, consider creating a rule.
